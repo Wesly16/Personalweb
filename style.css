@@ -408,6 +408,7 @@ main {
   width: 100%;
   background: hsla(0, 0%, 79%, 0.75);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border: 0px solid var(--jet);
   -o-border-radius: 0px 0px 0 0;
   box-shadow: var(--shadow-2);
