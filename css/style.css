@@ -1307,7 +1307,7 @@ textarea.form-input::-webkit-resizer {
 
   /****** style system ******/
   .container {
-    width: 10%;
+    width: 100%;
     margin: auto;
   }
 
@@ -1702,10 +1702,6 @@ textarea.form-input::-webkit-resizer {
   .sidebar-info {
     flex-direction: column;
   }
-
-  /* .image-box {
-    width: 10px;
-  } */
 
   .info-content .name {
     white-space: nowrap;
