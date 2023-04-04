@@ -1989,3 +1989,10 @@ textarea.form-input::-webkit-resizer {
     max-width: 700px;
   }
 }
+
+#footer end {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 150px;
+}
