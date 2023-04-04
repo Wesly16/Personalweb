@@ -409,13 +409,13 @@ main {
   background: hsla(0, 0%, 79%, 0.75);
   backdrop-filter: blur(10px);
   border: 0px solid var(--jet);
-  border-radius: 0px 0px 0 0;
+  -o-border-radius: 0px 0px 0 0;
   box-shadow: var(--shadow-2);
   z-index: 5;
   -webkit-border-radius: 0px 0px 0 0;
   -moz-border-radius: 0px 0px 0 0;
   -ms-border-radius: 0px 0px 0 0;
-  -o-border-radius: 0px 0px 0 0;
+  border-radius: 0px 0px 0 0;
 }
 
 .navbar-list {
