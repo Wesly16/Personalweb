@@ -13,7 +13,7 @@
     <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 
     <!--
     - google font link
@@ -30,7 +30,7 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="portfolio.html">Portofolio</a></li>
-        <li><a href="article.html">Blog</a></li>
+        <li><a href="article.html">Article</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
@@ -38,154 +38,104 @@
     <!--
     - #MAIN
   -->
-
     <main>
-      <!--
-      - #SIDEBAR
-    -->
-    <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          
-          <figure class="image-box">
-            <img src="./assets/images/home2.png" alt="Wesly Daud Siahaan" width="300" />
-          </figure>
-  
-          <div class="info-content">
-            <h1 class="name" title="Wesly Daud Siahaan">Wesly Daud Siahaan</h1>
-  
-            <p class="title">Front End Developer</p>
-          </div>
-  
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Follow<span>
-  
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
+      <div class="card">
+        <img src="assets/images/artikel1.png" width="300" height="195" />
+        <div class="content">
+          <a href="https://www.petanikode.com/belajar-dart/">
+            <span class="title"> [Tutorial Instan] Belajar Cepat Bahasa Pemrograman Dart</span>
+          </a>
+
+          <p class="desc">Dart adalah bahasa pemrograman yang dikembangkan oleh Google untuk kebutuhan umum (general-purpose programming language).</p>
+
+          <a href="https://www.petanikode.com/belajar-dart/" class="action">
+            Find out more
+            <span aria-hidden="true"> → </span>
+          </a>
         </div>
-  
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
-  
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="https://github.com/Wesly16" class="social-link">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
-  
-            <li class="social-item">
-              <a href="https://www.linkedin.com/in/weslydaudsiahaan/" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-  
-            <li class="social-item">
-              <a href="https://instagram.com/iniwesly" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-          </ul>
-  
-          <div class="separator"></div>
-  
-          
+      </div>
+      <div class="card">
+        <img src="assets/images/artikel2.png" width="300" height="195" />
+        <div class="content">
+          <a href="https://www.niagahoster.co.id/blog/cara-membuat-website-html-css/">
+            <span class="title"> Bagaimana Cara Membuat Website dengan HTML dan CSS?</span>
+          </a>
+
+          <p class="desc">
+            Anda ingin belajar cara membuat website, tapi bingung harus mulai darimana? Tidak usah bingung lagi, Anda bisa memulainya dari HTML dan CSS! Karena bagi seorang web developer, HTML dan CSS adalah pondasi yang wajib dipelajari
+            untuk mengembangkan website.
+          </p>
+
+          <a href="https://www.niagahoster.co.id/blog/cara-membuat-website-html-css/" class="action">
+            Find out more
+            <span aria-hidden="true"> → </span>
+          </a>
         </div>
-      </aside>
+      </div>
+      <div class="card">
+        <img src="assets/images/artikel3.png" width="300" height="195" />
+        <div class="content">
+          <a href="https://www.petanikode.com/javascript-dasar/">
+            <span class="title">Pemrograman Javascript: Langkah Awal Belajar Javascript</span>
+          </a>
 
+          <p class="desc">seiring perkembangan zaman, javascript tidak hanya berjalan di atas browser saja. Javascript juga dapat digunakan pada sisi Server, Game, IoT, Desktop, dsb.</p>
 
-      <!--
-      - #main-content
-    -->
-    
-
-      <div class="main-content">
-        <!--
-        - #NAVBAR
-      -->
-
-      
-        <!--
-        - #ABOUT
-      -->
-
-        <article class="about active" data-page="res">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
-
-          <section class="about-text">
-            <p>
-              I am highly motivated to learn new experiences, enjoy activities that involve a lot of people or teamwork And have an interest in web programming. Currently, 
-              I am still pursuing my undergraduate education at Universitas Dinamika Bangsa by majoring in information systems. I am currently in the 6th semester and am in the lecture period.
-
-            </p>
-          </section>
-
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-
-              <h3 class="h3">Education</h3>
-            </div>
-
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Dinamika Bangsa University</h4>
-
-                <span>2020 — present</span>
-
-                <p class="timeline-text">Information Systems Department Student.</p>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Unggul Sakti Vocational high School</h4>
-
-                <span>2017 — 2020</span>
-
-                <p class="timeline-text">Multimedia.</p>
-              </li>
-
-            </ol>
-          </section>
-
-  
-        <!--
-      - #CONTACT
-    -->
-
-    <article class="contact" data-page="contact">
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-
-        <section class="contact-form">
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input />
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-          </form>
-        </section>
-      </article>
-        
+          <a href="https://www.petanikode.com/javascript-dasar/" class="action">
+            Find out more
+            <span aria-hidden="true"> → </span>
+          </a>
+        </div>
       </div>
     </main>
 
- 
+    <main>
+      <div class="card">
+        <img src="assets/images/artikel4.png" width="300" height="195" />
+        <div class="content">
+          <a href="https://www.deretcode.com/tutorial-belajar-css-membuat-responsive-layout">
+            <span class="title"> Tutorial belajar css # membuat responsive layout</span>
+          </a>
 
+          <p class="desc">Hal yang perlu diperhatikan saat membangun website adalah memastikan tata letak halaman web dapat menyesuaikan di berbagai ukuran layar.</p>
+
+          <a href="https://www.deretcode.com/tutorial-belajar-css-membuat-responsive-layout" class="action">
+            Find out more
+            <span aria-hidden="true"> → </span>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/images/artikel5.png" width="300" height="195" />
+        <div class="content">
+          <a href="https://www.deretcode.com/tutorial-belajar-css-mengatur-background-teks-font-dan-tampilan-pada-element-html">
+            <span class="title"> Tutorial belajar css# Mengatur background, teks, font dan gaya tampilan pada element html</span>
+          </a>
+
+          <p class="desc">Salah satu hal yang bisa dilakukan css adalah mengatur latar belakang element. Mendesain latar belakang tentu menjadi hal penting yang perlu dilakukan untuk menghasilkan halaman web yang menarik dan modern.</p>
+
+          <a href="https://www.deretcode.com/tutorial-belajar-css-mengatur-background-teks-font-dan-tampilan-pada-element-html" class="action">
+            Find out more
+            <span aria-hidden="true"> → </span>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/images/artikel6.png" width="300" height="195" />
+        <div class="content">
+          <a href="https://www.petanikode.com/javascript-dasar/">
+            <span class="title">Tutorial belajar css# Membuat animasi menggunakan css</span>
+          </a>
+
+          <p class="desc">seiring perkembangan zaman, javascript tidak hanya berjalan di atas browser saja. Javascript juga dapat digunakan pada sisi Server, Game, IoT, Desktop, dsb.</p>
+
+          <a href="https://www.petanikode.com/javascript-dasar/" class="action">
+            Find out more
+            <span aria-hidden="true"> → </span>
+          </a>
+        </div>
+      </div>
+    </main>
     <!--
     - ionicon link
   -->
